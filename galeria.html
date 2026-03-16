@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+     <script src="https://kit.fontawesome.com/54fc0ed631.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <title>Inforschool</title>
+</head>
+<style>
+    header.galeria {
+        background: none;
+        z-index: 2;
+    }
+
+    h1 {
+        color:#1e3a8a;
+        margin-bottom: 17px;
+    }
+
+    main.corpogaleria {
+        margin-top: -420px;
+    }
+
+    main > section#galeria {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+        div.ft {
+        width: 48%;
+        height: 200px;
+
+        background-position: center;
+        background-size: cover;
+        margin: 1px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    @media (min-width:1024px) {
+        main.corpogaleria {
+        margin-top: -500px;
+        
+    }
+
+    div.ft {
+        height: 250px;
+    }
+
+    }
+
+</style>
+<body>
+        <header class="galeria">
+        <div id="menufixo">
+        <div id="ico"><i class="fa-solid fa-book-open fa-xl" style="color: #FFFFFF;"></i> <span>InforSchool</span></div> 
+        <div id="btmenu"><i class="fa-solid fa-bars  fa-xl" style="color: #FFFFFF;"></i></div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobre o projeto.html">Sobre o projeto</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        </div> 
+ 
+    </header>
+
+    <main class="corpogaleria">
+        <h1>GALERIA</h1>
+        
+        <section id="galeria">
+            <div class="ft" data-aos="zoom-in" data-aos-duration="1000"><img src="img/IMG-20260103-WA0170.jpg" alt=""></div>
+            <div class="ft" data-aos="zoom-in" data-aos-duration="1000"><img src="img/IMG-20260103-WA0169.jpg" alt=""></div>
+            <div class="ft" data-aos="zoom-in" data-aos-duration="1000"><img src="img/IMG-20260103-WA0171.jpg" alt=""></div>
+            <div class="ft" data-aos="zoom-in" data-aos-duration="1000"><img src="img/IMG-20260103-WA0168.jpg" alt=""></div>
+            <div class="ft" data-aos="zoom-in" data-aos-duration="1000"><img src="img/IMG-20260103-WA0166.jpg" alt=""></div>
+            <div class="ft" data-aos="zoom-in" data-aos-duration="1000"><img src="img/IMG-20260103-WA0165.jpg" alt=""></div>
+            <div class="ft" data-aos="zoom-in" data-aos-duration="1000"><img src="img/IMG-20260103-WA0164.jpg" alt="" srcset=""></div>
+            <div class="ft" data-aos="zoom-in" data-aos-duration="1000"><img src="img/IMG-20260103-WA0167.jpg" alt="" srcset=""></div>
+        </section>
+    </main> <br> <br>
+
+    <footer  class="rodape">
+        <span><a href="https://www.gmail.com" target="_blank">Email</a></span>
+        <span>facebook</span>
+        <span>whatsapp</span>
+        <span><a href="https://www.linkedin.com/in/makandadaniel" target="_blank">linkedin</a></span>
+
+    </footer>
+    
+    <script src="javaScript/jScript.js"></script>    
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
+</body>
+</html>

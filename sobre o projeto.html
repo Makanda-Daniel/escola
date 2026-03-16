@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script src="https://kit.fontawesome.com/54fc0ed631.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <title>InforSchool</title>
+    <style>
+        body {
+            display: flex;
+            flex-flow: column;
+            min-height: 100vh;
+        }
+        header.cabecaSo {
+            background: none;
+        }
+
+        main {
+            margin-top: -420px;
+            flex: 1;
+        }
+
+        div#txt {
+            color: gray;
+        }
+
+        h1 {
+        color:#1e3a8a;
+        margin-bottom: 17px;
+        text-transform: uppercase;
+       }
+       h2 {
+        color:rgb(56, 54, 54);
+        text-transform: uppercase;
+
+       }
+
+
+        article.SB {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        div#ft {
+           
+            background: url("img/11.jpg ");
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 270px;
+            margin-bottom: 5px;
+        }
+
+        p#pa {
+            margin-bottom: 50px;
+           
+
+        }
+
+        article.fer {
+            margin-top: 40px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            
+        }
+
+        div.tec {
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 7px;
+            box-shadow: 1px 2px 4px gray;
+            text-align: justify;
+
+        }
+
+        p {
+            color: gray;
+        }
+        @media (min-width:768px) {
+            div.subcorpo {
+                margin: 0 auto;
+                width: 70vw;
+            }
+
+            div#ft {
+                height: 290px;
+            }
+            
+        article#inf {
+            margin: 10px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            
+        }
+        div.tec {
+            width: 240px;
+            margin: 10px;
+        }
+
+        }
+
+
+        @media (min-width:1024px){
+            main {
+                margin-top: -500px;
+            }
+
+            div#ft {
+                height: 400px;
+            }
+
+                    article#inf {
+            margin: 10px;
+          
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+        }
+
+            div.tec {
+            width: 425px;
+            margin: 10px;
+        }
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header class="cabecaSo">
+         <div id="menufixo">
+        <div id="ico"><i class="fa-solid fa-book-open fa-xl" style="color: #FFFFFF;"></i> <span>Inforschool</span></div> 
+        <div id="btmenu"><i class="fa-solid fa-bars  fa-xl" style="color: #FFFFFF;"></i></div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobre o projeto.html">Sobre o projeto</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="subcorpo">
+        <h1>sobre o projeto</h1>
+        <article class="SB">
+            <div id="ft" data-aos="zoom-in" data-aos-duration="1000"></div>
+            <div id="txt">
+                O InforSchool é um sistema web desenvolvido para modernizar e facilitar a geatão e o acesso 
+                a informação escolar em Angola. Acreditamos que a tecnologia pode aproximar escolas, estudantes
+                e encarregados, promovendo mais transparência, eficiência e organização no ambiente educativo.  
+            </div>
+        </article>
+
+        <article class="fer" id="inf" >
+            <div class="tec">
+                <span><i class="fa-solid fa-eye fa-xl" style="color: #1e3a8a;"></i></span>
+                <h2>Missão</h2> 
+                <p>
+                    Promover a transformação digital nas instituições de ensino, oferecendo uma
+                    plataforma acessível, intuitiva e funcional que simplifica a publicação 
+                    de notas, comunicados,eventos e pauta.
+                </p>
+                    
+            </div>
+
+            <div class="tec" data-aos="fade-up" data-aos-duration="1000">
+                <span><i class="fa-solid fa-bullseye fa-xl" style="color: #1e3a8a;"></i></span>
+                <h2>Objectivo</h2>
+                <p>
+                  
+                    Digitalizar e centralizar os processos escolares, permitindo que os alunose encarregados
+                    de educação tenham acesso rápido e fácil a informaçãorelevante da escola, a partir
+                    de qualquer dispositivo.
+
+
+                </p>
+            </div>
+
+          <div class="tec" data-aos="fade-up" data-aos-duration="1000">
+            <span><i class="fa-solid fa-code fa-xl" style="color: #1e3a8a;"></i></span>
+                <h2>Tecnologias</h2>
+                <p>
+                    As tecnologias e ferramentas utilizadas para desenvolver o InforSchool são: HTML, CSS, JS e Figma.
+                    
+                </p>
+            </div>
+
+            
+          <div class="tec" data-aos="fade-up" data-aos-duration="1000">
+            <span><i class="fa-solid fa-phone fa-xl" style="color: #1e3a8a;"></i></span>
+                <h2>Contacto</h2>
+                <p>
+                    Whatsapp: 925132789; Facebook e Linkedin: Makanda Daniel.
+      
+                </p>
+            </div>
+
+        </article>
+        </div>
+    </main>
+    <p id="pa"></p>
+    
+
+    <footer  class="rodape">
+        <span><a href="https://www.gmail.com/" target="_blank">Email</a></span>
+        <span>facebook</span>
+        <span>whatsapp</span>
+        <span><a href="https://www.linkedin.com/in/makandadaniel" target="_blank">linkedin</a></span>
+
+    </footer>
+
+
+    
+    <script src="javaScript/jScript.js"></script>    
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
+</body>
+</html>

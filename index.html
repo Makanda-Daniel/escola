@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script src="https://kit.fontawesome.com/54fc0ed631.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <title>Inforschool</title>
+</head>
+<body>
+    <header>
+        <div id="menufixo">
+        <div id="ico"><i class="fa-solid fa-book-open fa-xl" style="color: #FFFFFF;"></i> <span>Inforschool</span></div> 
+        <div id="btmenu"><i class="fa-solid fa-bars  fa-xl" style="color: #FFFFFF;"></i></div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobre o projeto.html">Sobre o projeto</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        </div> <p id="espaco">a</p>
+        <div id="txtheader" data-aos="fade-right" data-aos-duration="1000">
+           <p>
+            Simplificando o acesso as suas informações escolares.
+           </p> <br>
+           <p id="p">
+            Acesse as suas informações <br> <br>
+           <a href="login.html"> <button>login</button></a>
+           </p>
+        </div>
+    </header>
+    <main>
+        <section id="cards">
+            <article data-aos="fade-up" data-aos-duration="1000"  class="itenscard">
+                <span><i class="fa-duotone fa-solid fa-building-circle-check  fa-2xl" style="color: #1e3a8a"></i></span>
+                <h3 class="acao" onclick="clicar()">Notas</h3>
+            </article>
+
+             <article data-aos="fade-up" data-aos-duration="1000" class="itenscard">
+                <span><i class="fa-duotone fa-solid fa-calendar-days  fa-2xl" style="color: #1e3a8a"></i></span>
+                <h3 class="acao" onclick="clicar()">Eventos</h3>
+            </article>
+
+            <article data-aos="fade-up" data-aos-duration="1000" class="itenscard">
+                <span><i class="fa-duotone fa-solid fa-square-poll-horizontal  fa-2xl" style="color: #1e3a8a"></i></span> 
+                <h3 class="acao" onclick="clicar()">Pauta</h3>
+            </article>
+
+            <article data-aos="fade-up" data-aos-duration="1000" class="itenscard">
+                <span><i class="fa-duotone fa-solid fa-book  fa-2xl" style="color: #1e3a8a"></i></span>
+                <h3 class="acao" onclick="clicar()">Materia</h3>
+            </article>
+        </section> 
+
+
+        <section id="avaliacao"> 
+            <article class="pessoa" data-aos="fade-up" data-aos-duration="1000">
+                <div class="ftd"></div> 
+                <span>Eliseu Manso - Estudante</span> <br>
+                <div class="txt">
+                    O InforSchool ajudou me bastante, principlamente nas semanas de provas. Ver o 
+                    horário, os resultados e as mensagens dos professores online facilita muito. É
+                    bom ver as tecnologias a chegar nas escolas de Angola.
+                </div>    
+            </article>
+
+            <article class="pessoa" data-aos="fade-up" data-aos-duration="1000">
+                <div class="ftp"></div> 
+                <span>Makanda Daniel - Diretor Geral</span> <br>
+                <div class="txt">
+                    Como gestor de uma instituição posso dizer que o InforSchool trouxe mais
+                    organização e transparência na comunicação entre os alunos e pais. Reduzimos
+                    o papel,  melhoramos o controle das informaçõese aproximamos a escola da comunidade.
+
+                </div>
+            </article>
+
+            <article class="pessoa" data-aos="fade-up" data-aos-duration="1000">
+                <div class="fte"></div> 
+                <span>Elisa Mbala - encarregada</span> <br>
+                <div class="txt">
+                    Desde que a escola do meu filho passou a usar o InforSchool, ficou mais fácil 
+                    acompanhar as notas, eventos e comunicados. Antes eu tinha que esperar pelas reuniões,
+                    agora vejo tudo no meu telefone. É uma grande evolução.
+
+                </div>
+            </article>
+        </section>
+
+
+    </main> <br>
+
+    <footer class="rodape">
+        <span><a href="https://www.gmail.com/" target="_blank">Email</a></span>
+        <span>facebook</span>
+        <span>whatsapp</span>
+        <span><a href="https://www.linkedin.com/in/makandadaniel" target="_blank">linkedin</a></span>
+
+    </footer>
+    
+    <script src="javaScript/jScript.js"></script>    
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>
+</body>
+</html>
